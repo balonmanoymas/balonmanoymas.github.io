@@ -1,0 +1,71 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+@font-face {
+    font-family: NeueHassUnicaPro;
+    src: url(../fonts/NeueHaasUnicaPro.ttf);
+}
+
+div {
+    font-family: 'NeueHaasUnicaPro', sans-serif;
+    text-align: justify;
+}
+
+.entry-header {
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    margin-left: -1.5px;
+    font-size: 35px;
+}
+
+.under-entry {
+    color: #B8B8B8;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+h1 {
+  text-align: left
+}
+
+a {
+    color: #5F6A98;
+}
